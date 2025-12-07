@@ -1,0 +1,12 @@
+using MediatR;
+using OnionVb02.Application.ErrorManagement.Results;
+
+namespace OnionVb02.Application.CqrsAndMediatr.Mediator.Commands.AppUserCommands
+{
+    public class UpdateAppUserCommand : IRequest<Result>
+    {
+        public int Id { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
+    }
+}

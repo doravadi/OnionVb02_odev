@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OnionVb02.Application\OnionVb02.Application.csproj" />
+    <ProjectReference Include="..\..\Core\OnionVb02.Contract\OnionVb02.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
